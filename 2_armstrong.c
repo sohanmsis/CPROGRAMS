@@ -17,9 +17,9 @@ int isArmstrong(int num) {
         orgNum /= 10;
     }
     if (result == num)
-        return 1; // True, it's an Armstrong number
+        return 1; 
     else
-        return 0; // False, it's not an Armstrong number
+        return 0; 
 }
 
 int main() {
